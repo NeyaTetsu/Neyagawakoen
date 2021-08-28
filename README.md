@@ -1,2 +1,2 @@
-# Neyagawakoen
-寝屋川公園駅電光掲示板
+# 寝屋川公園駅発車標
+[見てね♪](https://neyatetsu.github.io/Neyagawakoen/)
