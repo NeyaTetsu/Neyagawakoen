@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寝屋川公園駅発車標</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="canvas">
+        <canvas width="1140px" height="420px" id="canvas1"></canvas>
+        <canvas width="420px" height="420px" id="canvas0"></canvas>
+        <canvas width="1140px" height="420px" id="canvas2"></canvas>
+    </div>
+    <script src="downDatabase.js"></script>
+    <script src="upDatabase.js"></script>
+    <script src="script.js"></script>
+    <div class="background">
+        <div class="text">
+            <h1><span class="h1">寝屋川公園駅電光掲示板</span></h1>
+            <h2>寝屋川公園駅とは？</h2>
+            <p>寝屋川公園（ねやがわこうえん）駅は、大阪府寝屋川市打上元町にある、JR西日本片町線（学研都市線）の駅である。<br>
+            快速が止まらず、駅前に何もない小さな駅であったが、2019年に東寝屋川駅から現在の寝屋川公園駅に改称後、駅前の再開発が活発になっている（気がする）。<br>
+            また、このサイトの開発者の最寄り駅の1つである。</p>
+            <h2>どこにあるの？</h2>
+            <p>寝屋川市で最もへんぴなところ（偏見）</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1012116.8151229428!2d135.0209508475042!3d34.974230754691625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60011ee184e48cbb%3A0xfb057f9d78a93bf2!2z5a-d5bGL5bed5YWs5ZyS6aeF!5e0!3m2!1sja!2sjp!4v1630127091255!5m2!1sja!2sjp" width="1024" height="1024" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <h2>電光掲示板について</h2>
+            <ul>
+                <li>電光掲示板は横方向にスクロールが可能です。</li>
+                <li>リアルタイムで更新されるので、リロード作業は不要です。</li>
+            </ul>
+            <div class="caution">
+                <h3>注意事項</h3>
+                <p>※土曜休日ダイヤには対応していません。</p>
+                <p>※電光掲示板の更新タイミングと、実際の発車時刻には最大1分の誤差があります。</p>
+            </div>
+            <h2>リンク</h2>
+            <div class="links">
+                <a href="https://www.jr-odekake.net/eki/top?id=0610920"><div class="link link0">寝屋川公園駅 JRおでかけネット</div></a>
+                <a href="https://ja.wikipedia.org/wiki/%E5%AF%9D%E5%B1%8B%E5%B7%9D%E5%85%AC%E5%9C%92%E9%A7%85"><div class="link link1">寝屋川公園駅 Wikipedia</div></a>
+                <a href="https://twitter.com/NeyaTetsu"><div class="link link2">開発者Twitter</div></a>
+            </div>
+            <h4>Copylight &copy; Neya 2021<br>
+            Picture shot in GoPro Hero9</h4>
+        </div>
+    </div>
+</body>
+</html>
